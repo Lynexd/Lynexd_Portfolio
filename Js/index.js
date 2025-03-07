@@ -22,4 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
     video.play().catch(error => {
         console.error("[ Lynexd Inc ] Otomatik Video Oynatılma Engellendi.", error);
     });
-});
+}); 
