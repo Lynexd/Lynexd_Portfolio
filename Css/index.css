@@ -12,6 +12,7 @@ body {
     padding: 0;
     height: 120vh;
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -88,6 +89,7 @@ video {
     box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 50%;
+    color: white;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.10s ease-in-out;
@@ -144,12 +146,14 @@ video {
 
 .card .title {
     text-align: center;
+    color: white;
 }
 
 .card .actions {
     padding: 0 2rem 1.2rem;
     display: flex;
     flex-direction: column;
+    color: white;
     order: 99;
 }
 
@@ -161,12 +165,14 @@ video {
 .card .actions .discord-info h2 {
     text-align: center;
     width: 50%;
+    color: white;
     margin: 0;
     box-sizing: border-box;
 }
 
 .card .actions .discord-info h2 a {
     text-decoration: none;
+    color: white;
     padding: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -175,7 +181,7 @@ video {
 }
 
 .card .actions .discord-info h2 a .bi {
-    color: #000;
+    color: white;
     font-size: 2rem;
 }
 
